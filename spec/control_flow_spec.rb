@@ -19,6 +19,7 @@ describe '#admin_login' do
 
 end
 
+
 describe '#hows_the_weather' do
   
   it 'returns "It\'s brisk out there!" if the temperature is below 40' do
@@ -68,7 +69,6 @@ describe '#calculator' do
   it 'adds two numbers' do
     expect(calculator('+', 1, 1)).to eq(2)
   end
-  
   it 'subtracts two numbers' do
     expect(calculator('-', 3, 1)).to eq(2)
   end
